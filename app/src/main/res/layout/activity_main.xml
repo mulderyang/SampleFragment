@@ -9,6 +9,6 @@
         android:id="@+id/mainFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="org.androidtown.fragment.MainFragment" />
+        android:name="org.androidtown.fragment.MenuFragment" />
 
 </RelativeLayout>
