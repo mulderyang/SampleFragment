@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
         //mainFragment = (MainFragment) getSupportFragmentManager().findFragmentById(R.id.mainFragment);
         mainFragment = new MainFragment();
         menuFragment = new MenuFragment();
+
+        getSupportFragmentManager().beginTransaction().add(R.id.container, mainFragment).commit();
     }
 
     public void onFragmentChanged(int index) {
